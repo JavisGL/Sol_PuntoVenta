@@ -29,7 +29,7 @@ namespace Sol_PuntoVenta.Datos
             SqlConnection Cadena = new SqlConnection();
             try
             {
-                Cadena.ConnectionString = "Server" + this.Servidor +
+                Cadena.ConnectionString = "Server=" + this.Servidor +
                     "; Database=" + this.Base +
                     "; User Id=" + this.Usuario +
                     "; Password=" + this.Clave;
